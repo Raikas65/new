@@ -1,7 +1,7 @@
 {
   "name": "togetherjs-hub",
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "postinstall": "node scripts/fetch.js",
     "start": "node hub/server.js -p $PORT -l 0.0.0.0"
